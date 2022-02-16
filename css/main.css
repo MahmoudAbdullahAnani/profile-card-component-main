@@ -1,0 +1,126 @@
+*{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #19a0ac;
+    scroll-margin:none;
+}
+.image_top{
+    margin-left: -14%;
+    margin-top: -515px;
+}
+.image_button{
+    margin-left: 50%;
+    margin-top: -101px;
+    /* outline: 0; */
+    height: 348.7px;
+    width: 50%;
+}
+.contenar{
+    background-color: white;
+    height: 370px;
+    width: 350px;
+    /*display: inline-flex;
+    */float: left;
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+
+}
+#card-head{
+    background-image: url(../images/bg-pattern-card.svg);
+    border-radius: 13px 13px 0 0;
+    background-size: cover;
+    height: 150px;
+    position: absolute;
+    -webkit-border-radius: 13px 13px 0 0;
+    -moz-border-radius: 13px 13px 0 0;
+    -ms-border-radius: 13px 13px 0 0;
+    -o-border-radius: 13px 13px 0 0;
+}
+#crkal{
+    background-image: url(../images/image-victor.jpg);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    left: 35%;
+    top: 28%;
+    background-size: cover;
+    border: solid 5px white;
+}
+.doc{
+    position: absolute;
+    /* display: inline-block; */
+    top: 65%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+}
+#p1{
+    font-weight: 700;
+    margin-top: -20px;
+    font-size: 18px;
+    color: #000000cf;
+}
+#p1-span1{
+    font-weight: 400;
+    margin-left: 8px;
+    color: #0000008f;
+}
+#p2{
+    font-weight: 400;
+    font-size: 15px;
+    color: #0000008f;
+    margin-bottom: 22px;
+    margin-top: 5px;
+}
+#footar-p1-span,
+#footar-p2-span,
+#footar-p3-span{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #0000008f;
+}
+#footar-p1,
+#footar-p2,
+#footar-p3 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color:#000000cf ;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media (max-width:860px) {
+    .contenar{
+        margin-left: -29%;
+        margin-top: -15%;
+    }
+    body {
+    background-color: #19a0ac;
+    scroll-margin: none;
+    /* display: flex; */
+    justify-content: end;
+    /* align-content: stretch; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row-reverse; */
+    display: grid;
+    align-items: center;
+}
+}
